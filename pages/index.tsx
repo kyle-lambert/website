@@ -1,9 +1,8 @@
-import { styled } from '../stitches.config';
-import { Button } from '@components';
+import { styled } from '@/stitches';
 
 const Text = styled('p', {
   fontFamily: '$system',
-  color: '$hiContrast',
+  color: '$amber500',
 
   variants: {
     size: {
@@ -29,7 +28,6 @@ export default function Home() {
       <Text as="h1" size="4">
         Hello, from Stitches.
       </Text>
-      <Button />
     </div>
   );
 }

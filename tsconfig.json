@@ -16,8 +16,15 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@components": ["src/components"],
-      "@stitches": ["stitches.config.ts"]
+      "@/components/atoms": ["src/components/atoms"],
+      "@/components/molecules": ["src/components/molecules"],
+      "@/components/organisms": ["src/components/organisms"],
+      "@/components/templates": ["src/components/templates"],
+      "@/components/pages": ["src/components/pages"],
+      "@/services": ["src/services"],
+      "@/utils": ["src/utils"],
+      "@/hooks": ["src/hooks"],
+      "@/stitches": ["stitches.config.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
